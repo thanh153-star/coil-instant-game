@@ -343,7 +343,7 @@ var Coil = (function(){
 		ctx.arc( canvasWidth * 0.5, canvasHeight * 0.5, ENEMY_SIZE * 1.4, 0, Math.PI*2, true );
 		ctx.lineWidth = 2;
 		ctx.fillStyle = 'rgba(190,220,90, 0.9)';
-		ctx.strokeStyle = 'rgba(255,255,255,0.4)'
+		ctx.strokeStyle = 'rgba(255,255,255,0.4)';
 		ctx.shadowColor = 'rgba(220,240,150,0.9)';
 		ctx.shadowOffsetX = 0;
 		ctx.shadowOffsetY = 0;

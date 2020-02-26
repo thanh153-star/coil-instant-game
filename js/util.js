@@ -26,7 +26,7 @@ var WebGLUtil = {
 		{
 			var infoLog = gl.getShaderInfoLog(fs);
 			gl.deleteProgram( program );
-			alert( "FS ERROR: " + infoLog );
+			// alert( "FS ERROR: " + infoLog );
 	    }
 	
 	    gl.attachShader(program, vs);
